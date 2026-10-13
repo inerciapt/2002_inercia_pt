@@ -1,0 +1,46 @@
+
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	width: 640px;
+	border-collapse: collapse;
+}
+
+td {
+	padding-bottom: 20px;
+	vertical-align: top;
+}
+
+td:first-child:not(.video) {
+	padding-right: 20px;
+}
+
+a:active     { 
+	color: #888888;
+}
+
+a:link       { 
+	color: #888888; 
+}
+
+a:visited    { 
+	color: #888888;
+}
+
+a:hover		 { 
+	color: #AAAAAA;
+}
+
+body {
+	background-image: url("bg.jpg");
+}
+
+iframe {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	height: auto;
+}
