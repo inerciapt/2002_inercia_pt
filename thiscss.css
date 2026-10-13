@@ -44,3 +44,21 @@ iframe {
 	aspect-ratio: 16 / 9;
 	height: auto;
 }
+
+.logo-container {
+/*    width: 640px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+}
